@@ -21,7 +21,7 @@ author:
   info:
 
 url: http://scottwhudson.com
-baseurl: "/"
+baseurl:
 
 # language attribute in <html> element.
 lang: en
