@@ -1,5 +1,8 @@
 <footer>
   <div class="inner">
-    <p>{{ site.footer-text }}</p>
+      {% if site.twitter %}<a class="fa fa-twitter" href="{{ site.twitter }}"></a>{% endif %}
+      {% if site.medium %}<a class="fa fa-medium" href="{{ site.medium }}"></a>{% endif %}
+      {% if site.linkedin %}<a class="fa fa-linkedin" href="{{ site.linkedin }}"></a>{% endif %}
+      {% if site.github %}<a class="fa fa-github" href="{{ site.github }}"></a>{% endif %}
   </div>
 </footer>

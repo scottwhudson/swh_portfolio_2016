@@ -1,26 +1,26 @@
 
 # The name of your website.
-name: Holo Alfa
+name: Scott Hudson
 
 description:
 
   # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta: Software Engineer in Austin, Texas.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle:
 
 author:
-  name: Dr. Jekyll # Change this!
+  name: Scott Hudson # Change this!
 
   # Necessary for contact page
-  email: your@email.com # Change this!
+  email: scott.w.hudson@gmail.com # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
   info:
 
-url: http://steinvc.github.io
+url: http://scottwhudson.com
 baseurl: "/holo-alfa"
 
 # language attribute in <html> element.
@@ -35,12 +35,12 @@ lang: en
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
-display-social-icons: false
+display-social-icons: true
 
 footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
-logo-image: # /img/logo.png
+logo-image: /img/swh-sacramento2.png
 
 # Toolbar color for Chrome on Android.
 theme-color-attr: "#00f0ff"
@@ -87,7 +87,7 @@ disqus-shortname:
 
 # Use a complete url here, including http:// and such. Requiring just usernames
 # has been considered, but this is way more customizable.
-twitter:
+twitter: https://twitter.com/swhudson
 youtube:
 instagram:
 tumblr:
@@ -95,9 +95,9 @@ facebook:
 google-plus:
 reddit:
 soundcloud:
-medium:
-linkedin:
-github:
+medium: https://medium.com/@swhudson
+linkedin: https://www.linkedin.com/in/scottwhudson
+github: https://github.com/scottwhudson/
 behance:
 codepen:
 dribbble:
