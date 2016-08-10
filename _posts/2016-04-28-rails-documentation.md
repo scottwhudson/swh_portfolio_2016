@@ -1,5 +1,6 @@
 ---
 title: Integrating Docs Into Your Rails Workflow
+summary: The perfect software development workflow is still a mystery in 2016. Software startups are often constantly tweaking their development and deploy processes to ship code as fast as possible, usually taking some hybrid kaizen approach to every aspect of development, from design all the way to deployment. And because of this, it’s really easy to start juggling too many special initiatives and development changes because we seek out the changes that bring the fastest improvements to our process, not necessarily the most impactful.
 ---
 
 
