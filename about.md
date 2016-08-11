@@ -7,7 +7,7 @@ Born in Colorado and raised in Kentucky, I now live among the taco trucks and li
 
 This blog is a random collection of thoughts and reflections on the journeys of software development and life.
 
-## Colopholon
+## Colophon
 * Built with [Jekyll](https://jekyllrb.com/) static site generator
 * [Holo Alfa theme](https://github.com/steinvc/holo-alfa) with some minor adjustments
 * Hosted using [Github Pages](https://pages.github.com/)
