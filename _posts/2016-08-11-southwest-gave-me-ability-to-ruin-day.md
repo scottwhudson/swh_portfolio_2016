@@ -1,6 +1,6 @@
 ---
 title: Southwest Gave Me The Ability To Ruin Someone's Day
-summary: Email Itineraries
+summary: On July 21st, I was one of the many frustrated flyers across the nation to awake and see that my Southwest flight had been cancelled due to the massive outage. I called SW and got my flight refunded (very easily actually, the support rep was very helpful). I rebooked on Delta and thought nothing else of it. About 3 hours later, I received an email itinerary for another SW flyer on a return trip flying out the same day.
 ---
 
 On July 21st, I was one of the many frustrated flyers across the nation to awake and see that my Southwest flight had been cancelled due to the massive outage. I called SW and got my flight refunded (very easily actually, the support rep was very helpful). I rebooked on Delta and thought nothing else of it.
