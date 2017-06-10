@@ -259,9 +259,7 @@ header img {
 nav {
   margin: 20px 0;
 }
-article {
-  margin-top: 30px;
-}
+
 article::after,
 /*header::after {
   margin: 50px 0;
@@ -426,6 +424,10 @@ nav a.current {
   table {
     margin: 40px auto;
   }
+  .article-headline {
+    margin-top: 0;
+  };
+  
   article::after,
   header::after {
     margin: 70px;
