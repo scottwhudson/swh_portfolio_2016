@@ -222,3 +222,6 @@ run.bat
 _site/**
 
 old/**
+
+.ruby-version
+
