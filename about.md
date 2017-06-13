@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: default
 title: About
+cover-image: IMG_1655-min.jpg
 ---
 
 Born in Colorado and raised in Kentucky, I now live among the taco trucks and live music joints in Austin, Texas. I stumbled into the software world in early 2013, working in various sales and support positions for tech companies around town, eventually moving into software development in 2014.
