@@ -3,6 +3,7 @@ layout: default
 title: About
 ---
 
+![about-me-img](/img/IMG_2022.JPG "Keukenhof 2017")
 Born in Colorado and raised in Kentucky, I now live among the taco trucks and live music joints in Austin, Texas. I stumbled into the software world in early 2013, working in various sales and support positions for tech companies around town, eventually moving into software development in 2014.
 
 I'm passionate about API design and development, data processing, and web application development in Ruby, Python, and Javascript. Beyond full-time work, I contribute to projects and organizations like [Open Austin](https://www.open-austin.org/), a volunteer organization dedicated to modernizing civic technology and accountability processes. 
