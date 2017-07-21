@@ -18,4 +18,4 @@ After about 6 months of managing my computer usage via RescueTime, I was well in
 
 5 years later, I recall that part of my life and think about all of the people and tools that led me to this point. So many people made vast differences in my career and life, and continue to do so today. Between the mentors, bosses, coworkers, and friends, Joe absolutely made a difference in my life simply by building something that matters. 
 
-
+Background image by <a href="http://unsplash.com/@sickle?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Sergey Pesterev">Sergey Pesterev</a>
