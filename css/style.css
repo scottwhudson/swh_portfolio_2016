@@ -23,7 +23,7 @@ body {
   font-size: 22px;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
-  color: rgba({{ site.text-color }}, .8);
+  color: rgba({{ site.text-color }}, 1);
   background-color: rgb({{ site.background-color }});
   background-repeat: no-repeat;
   background-size: 100%;
@@ -46,10 +46,11 @@ i, em {
   font-style: italic;
 }
 a {
-  color: #666666;
+  color: rgba({{ site.link-color }}, 1);
   text-decoration: none;
+  transition: color .2s ease-in;
   position: relative;
-  background: -webkit-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
+  /* background: -webkit-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
   background: -moz-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
   background: -o-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
   background: -ms-linear-gradient(rgba({{ site.text-color }},.76),rgba({{ site.text-color }},.76));
@@ -59,11 +60,13 @@ a {
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-size: 1px 1px;
-  background-position: 0 87%;
+  background-position: 0 87%; */
 }
-.no-cssgradients a {
-  text-decoration: underline;
+
+a:hover {
+  color: rgba({{ site.alt-color }}, 1);
 }
+
 ul,
 ol {
   margin: 30px auto;
@@ -112,10 +115,16 @@ h2 {
   margin-top: 40px;
   margin-bottom: 30px;
 }
-h3, h4, h5, h6 {
+h3, h4, h5 {
   font-size: 1.05em;
   margin-top: 40px;
   margin-bottom: 30px;
+}
+h6 {
+  font-size: 0.5em;
+  margin-top: 40px;
+  margin-bottom: 30px;
+
 }
 .meta {
   color: rgba({{ site.text-color }}, 0.5);
@@ -304,6 +313,10 @@ input[type="submit"] {
   border: 1px solid rgba({{ site.text-color }},.1);
   cursor: pointer;
 }
+
+.post-title {
+  font-weight: 700;
+}
 .pagination {
   margin-top: -30px;
   font-family: "Source Sans Pro", Verdana, sans-serif;
@@ -328,14 +341,12 @@ input[type="submit"] {
 }
 footer {
   font-size: 0.8em;
-  color: #7ECDC3;
-  background-color: #1E4164;
-  /*border-top: 1px solid rgba({{ site.text-color }}, 0.1);*/
+  background-color: rgba({{ site.alt-color }}, 1);
   height: 140px;
   margin: 0 auto;
 }
 footer a {
-  color: #7ECDC3;
+  color: rgba({{ site.link-color }}, 1);
   background-image: none;
   text-decoration: none !important;
   font-weight: 600;
@@ -360,7 +371,8 @@ footer .inner {
 }
 nav a {
   display: block;
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: "Roboto", Verdana, sans-serif;
+  font-weight: 500;
   padding: 5px;
   text-align: center;
   background-image: none;
@@ -368,9 +380,10 @@ nav a {
   border-radius: 4px;
   overflow: hidden;
   position: relative;
+  transition: color .2s ease-in;
 }
 nav a:hover {
-  color: rgba({{ site.text-color }},.76);
+  color: rgba({{ site.alt-color }},1);
 }
 nav a.current {
   color: rgba({{ site.text-color }}, .76)
@@ -378,8 +391,6 @@ nav a.current {
 .subtitle {
   margin: 30px 0;
   color: rgba({{ site.text-color }},.5);
-}
-.subtitle a {
   background-image: -webkit-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
   background-image: -moz-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
   background-image: -o-linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
@@ -387,7 +398,16 @@ nav a.current {
   background-image: linear-gradient(rgba({{ site.text-color }},.5),rgba({{ site.text-color }},.5));
 }
 
+.solid-nav {
+  /*background-color: rgba({{ site.alt-color }}, 1);*/
+  background-color: #ffffff;
+  color: rgba({{ site.link-color }}, 1);
+}
 
+.year {
+  color: rgba({{ site.text-color }}, 0.75);
+  margin-bottom: 10px;
+}
 /* Structure overwrites */
 
 @media all and (min-width: 370px) {
@@ -446,6 +466,11 @@ nav a.current {
     font-size: 1.2em;
     margin-top: 60px;
     margin-bottom: -10px;
+  }
+  h6 {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .img-only {
     margin: 0 -30px;

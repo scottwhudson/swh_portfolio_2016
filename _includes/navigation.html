@@ -1,6 +1,9 @@
+{% if page.cover-image %}
+<nav class="solid-nav">
+{% else %}
 <nav>
+{% endif %}
   <a href="{{ site.baseurl }}/about/">About</a>
   <a href="{{ site.baseurl }}/assets/swh_resume_public.pdf">Resume</a>
   <a href="{{ site.baseurl }}/contact/">Contact</a>
-  <a href="{{ site.baseurl }}/archive/">Archive</a>
 </nav>
