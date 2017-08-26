@@ -50,9 +50,10 @@ ms-tile-color: "#00f0ff"
 
 # Color used throughout the theme. Format: R, G, B.
 theme-color: 0, 240, 255 # Original: 0, 240, 255
-
+link-color: 126, 205, 195 # aqua
+alt-color: 30, 65, 100 # navy
 # Text color used throughout the theme. Format: R, G, B.
-text-color: 0, 0, 0 # Original: 0, 0, 0
+text-color: 51, 51, 51 # Original: 0, 0, 0
 
 # Background color used throughout the theme. Format: R, G, B.
 # Note: if you change the background color AND you use cover images, you should
@@ -72,7 +73,7 @@ date_format: "%b %-d, %Y"
 nav-breaking-point: 520px
 
 # Number of posts on each page.
-paginate: 3
+#paginate: 3
 
 # Display links for the previous and next post on post pages.
 display-next-prev-post: false

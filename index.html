@@ -1,22 +1,19 @@
 ---
-layout: default
+layout: page
 home: true
 ---
 
-{% for post in paginator.posts %}
-  <article>
-  	<a href="{{ post.url | prepend: site.baseurl }}"><h2 class="article-headline">{{ post.title }}</h2></a>
-      <p>
-      {% if post.summary %}
-        {{ post.summary }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
-      {% else %}
-        {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>
-      {% endif %}
-      </p>
+{% for post in site.posts %}
 
-  </article>
+{% unless post.next %}
+  <h3 class="year">{{ post.date | date: '%Y' }}</h3>
+{% else %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+  {% if year != nyear %}
+    <h3 class="year">{{ post.date | date: '%Y' }}</h3>
+  {% endif %}
+{% endunless %}
+
+<h6><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>
 {% endfor %}
-
-{% if paginator.previous_page or paginator.next_page %}
-  {% include pagination.html %}
-{% endif %}
